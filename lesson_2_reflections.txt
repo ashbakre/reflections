@@ -1,4 +1,4 @@
-What happens when you initialize a repository? Why do you need to do it?
+sWhat happens when you initialize a repository? Why do you need to do it?
 
 	When you initialize a repository a .git file is created to store previous
 	versions of the files in the repository. You need to do it in order to
@@ -14,10 +14,23 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+	Once you think you have made a significant change in a certain file, you
+	can add the file to the staging area and then make a commit. This way, you
+	can make sure each commit has a logical change.
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	If you want to try something or create a different version of a file while
+	keeping and working on the orginal, branching would be very useful. Branches
+	allow you to keep separate versions of a file and work on each of them
+	independently.
+
 How do the diagrams help you visualize the branch structure?
+
+	By creating diagrams, we get a lucid idea of where new branches are being created
+	and at which points the original branches have diverged. This helps us visualize
+	the branch structure.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
