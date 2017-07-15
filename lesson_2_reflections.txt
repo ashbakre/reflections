@@ -35,5 +35,16 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	When two branches are merged together, any lines that one user removes from
+	the original version are removed and lines that are added by a user are
+	added. By representing it in a diagram, we can efficiently compare the edits
+	that were made by the users.
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?
+
+	Git's automatic merging can be very useful in merging files easily and
+	efficiently which will save a lot of time, while ensuring that most
+	of the time important additions or deletions are kept. However, once
+	in a while, the merge may not be exactly what is desired. It can't choose
+	the better version of a block of text if it is edited in two or more branches.
